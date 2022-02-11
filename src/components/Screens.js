@@ -91,7 +91,7 @@ const Screens = () => {
   return (
     <>
       <Header>
-        <Title>Quick Notes</Title>
+        <Title>Samurai Notes</Title>
         <SignOutButton
           onClick={() => {
             Auth.signOut().then(() => window.location.reload());
